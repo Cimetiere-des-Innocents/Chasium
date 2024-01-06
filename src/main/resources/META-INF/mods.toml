@@ -6,21 +6,21 @@ loaderVersion="[3,)" # Require at least 3.x
 license='LGPL'
 
 [[mods]]
-modId="examplemod"
+modId="chasium"
 version="${file.jarVersion}"
-displayName="ExampleMod"
-credits="The ExampleMod dev team"
-authors="ExampleModAuthor"
+displayName="Chasium"
+credits="Cimetiere des Innocents"
+authors="Chlamydomonos"
 description='''
-Example mod that uses Kotlin for Forge.
+一个拥有科技线和魔法线的物流Mod
 '''
-[[dependencies.examplemod]]
+[[dependencies.chasium]]
     modId="forge"
     mandatory=true
     versionRange="[41,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.examplemod]]
+[[dependencies.chasium]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.19,1.20)"
